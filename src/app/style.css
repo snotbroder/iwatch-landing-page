@@ -1,0 +1,30 @@
+.variant-button {
+  display: grid;
+}
+.variant-image,
+.variant-backdrop {
+  grid-area: 1/1;
+}
+
+.variant-backdrop {
+  width: 150%;
+  height: 60%;
+  margin-top: auto;
+  border-radius: 6px;
+  place-self: center;
+}
+
+.variant-image {
+  z-index: 1;
+}
+
+.navy-backdrop {
+  background: rgba(67, 69, 88, 0.6);
+}
+.mint-backdrop {
+  background: rgba(106, 221, 204, 0.6);
+}
+
+.ocean-backdrop {
+  background: rgba(249, 205, 196, 0.6);
+}
