@@ -30,8 +30,15 @@ export default function Home() {
       <article className="flex mt-16">
         <main className="grid grid-cols-5">
           <div className="col-start-1 col-end-4">
-            <h1 style={heroBold}>The Perfect Moment</h1>
-            <h1 style={heroRegular}>Between Past And Future.</h1>
+            <div className="flex flex-col justify-between">
+              <div>
+                <h1 style={heroBold}>The Perfect Moment</h1>
+                <h1 style={heroRegular}>Between Past And Future.</h1>
+              </div>
+              <div className="mt-20">
+                <ButtonCTA value="Buy Now"></ButtonCTA>
+              </div>
+            </div>
           </div>
           <Image
             className="col-start-4 col-end-6"
@@ -48,7 +55,7 @@ export default function Home() {
           <button className="w-5 h-5 mx-auto rounded-full bg-ocean outline outline-white outline-1"></button>
         </div>
       </article>
-      <ButtonCTA value="Buy Now"></ButtonCTA>
+
       <footer className="mt-12 grid grid-cols-5 pb-16">
         <div className="col-start-1 col-end-4 mt-auto mb-auto">
           <PageStatus value="1" />
