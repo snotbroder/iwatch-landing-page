@@ -6,6 +6,7 @@ import ButtonCTA from "@/components/ButtonCTA";
 import PageStatus from "@/components/PageStatus";
 import Variant from "@/components/Variant";
 import Indicator from "@/components/Indicator";
+import Accordion from "@/components/Accordion";
 
 export default function Home() {
   const heroBold = {
@@ -65,6 +66,7 @@ export default function Home() {
           <Variant />
         </div>
       </footer>
+      <Accordion></Accordion>
     </section>
   );
 }
